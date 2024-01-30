@@ -1,0 +1,62 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Add a subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.container:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.2); /* Darker shadow on hover */
+}
+
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007bff; /* Make the title color match the primary button */
+    font-size: 24px; /* Increase the font size */
+    text-transform: uppercase; /* Make the title uppercase */
+}
+
+.label {
+    font-weight: bold;
+    color: #333; /* Darken the label color for better contrast */
+    text-transform: uppercase; /* Make the label uppercase */
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px; /* Increase the font size */
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increase the font size */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.button:hover {
+    transform: scale(1.1); /* Enlarge the button on hover */
+}
+
+.primaryButton {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.dangerButton {
+    background-color: #dc3545;
+    color: #fff;
+    margin-left: 5px;
+}
